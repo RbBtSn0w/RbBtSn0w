@@ -14,7 +14,8 @@
 ![Snake](./dist/github-snake-dark.svg)
 
 ### 📡 Recent Transmissions [rbbtsn0w.me]
-<!-- 博客列表会自动由 Metrics 插件渲染在 github-metrics.svg 中 -->
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
 
 ---
 <p align="right">

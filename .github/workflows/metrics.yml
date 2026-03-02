@@ -18,20 +18,10 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Hong_Kong
           config_theme: dracula
-          
-          # 语言插件配置
           plugin_languages: yes
           plugin_languages_ignored: html, css, scss
           plugin_languages_details: bytes-size, percentage
-          
-          # 贡献日历配置
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
-          
-          # RSS 插件配置 (Recent Transmissions)
-          plugin_rss: yes
-          plugin_rss_source: https://rbbtsn0w.me/feed.xml
-          plugin_rss_limit: 4
-          
-          # 强制调整插件顺序，确保 RSS 出现在仪表盘中
-          config_order: base.header, isocalendar, languages, rss, base.activity, base.community, base.repositories, base.metadata
+          # 关闭图片内的 RSS 插件，因为我们要改用文字形式
+          plugin_rss: no
