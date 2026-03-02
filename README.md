@@ -11,7 +11,7 @@
 ![Metrics](./github-metrics.svg)
 
 ### 🐍 Contribution Crawler
-![Snake](https://raw.githubusercontent.com/RbBtSn0w/RbBtSn0w/output/github-snake-dark.svg)
+![Snake](./dist/github-snake-dark.svg)
 
 ### 📡 Recent Transmissions [rbbtsn0w.me]
 <!-- 博客列表会自动由 Metrics 插件渲染在 github-metrics.svg 中 -->
