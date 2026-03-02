@@ -15,6 +15,6 @@ jobs:
         with:
           feed_list: "https://rbbtsn0w.me/feed.xml"
           max_post_count: 5
-          # 优化排版：使用更人性化的图标和日期格式，移除死板的括号
-          template: "▹ [$title]($url) — `$date`"
+          # 优化排版：使用标准的 Markdown 列表前缀加上用户喜欢的图标，并确保换行
+          template: "$newline- ▷ [$title]($url) — `$date`"
           date_format: "mmm dd, yyyy"
