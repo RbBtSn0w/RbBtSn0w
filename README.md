@@ -16,11 +16,11 @@
 ### 📡 Recent Transmissions [rbbtsn0w.me]
 
 <!-- BLOG-POST-LIST:START -->
+- ▷ [Google 全家桶 CLI 开源启示录：当 Rust 极致内核遇上 npm 分发外壳](https://rbbtsn0w.me/posts/rust-core-npm-shell-cli-evolution/) — `Mar 06, 2026`
 - ▷ [Alist + WebDAV + Cloud Sync：打造群晖 NAS 自动同步网盘的完美方案](https://rbbtsn0w.me/posts/alist-webdav-nas-sync/) — `Mar 05, 2026`
 - ▷ [Spec-Driven Development 深度指南 — Part 4: 使用 GitHub Issues 构建简单的 SDD 工作流](https://rbbtsn0w.me/posts/sdd-series-part-4-github-issues/) — `Mar 04, 2026`
 - ▷ [Spec-Driven Development 深度指南 — Part 3: 意图基础设施与 SDD 的未来](https://rbbtsn0w.me/posts/sdd-series-part-3-future/) — `Mar 04, 2026`
-- ▷ [Spec-Driven Development 深度指南 — Part 2: GitHub Spec Kit 实战指南](https://rbbtsn0w.me/posts/sdd-series-part-2-spec-kit/) — `Mar 04, 2026`
-- ▷ [Spec-Driven Development 深度指南 — Part 1: 软件设计的演进与 SDD 的本质](https://rbbtsn0w.me/posts/sdd-series-part-1-evolution/) — `Mar 04, 2026`<!-- BLOG-POST-LIST:END -->
+- ▷ [Spec-Driven Development 深度指南 — Part 2: GitHub Spec Kit 实战指南](https://rbbtsn0w.me/posts/sdd-series-part-2-spec-kit/) — `Mar 04, 2026`<!-- BLOG-POST-LIST:END -->
 
 ---
 <p align="right">
