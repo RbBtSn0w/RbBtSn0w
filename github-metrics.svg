@@ -43,7 +43,7 @@
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
                                     <rect class="day" x="165" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
                                     <rect class="day" x="180" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                 </g>
                             </svg>
                         </div>
@@ -69,7 +69,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            1198 Commits
+                            1209 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -219,14 +219,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="228.14468101853382" height="8" fill="#555555"/>
-                    <rect mask="url(#languages-bar)" x="228.14468101853382" y="0" width="82.64184253786694" height="8" fill="#438eff"/>
-                    <rect mask="url(#languages-bar)" x="310.78652355640077" y="0" width="52.26282805023587" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="363.04935160663666" y="0" width="49.80405319024782" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="412.8534047968845" y="0" width="20.784418411270114" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="433.6378232081546" y="0" width="8.89404734014727" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="442.53187054830187" y="0" width="8.744949600894929" height="8" fill="#B83998"/>
-                    <rect mask="url(#languages-bar)" x="451.2768201491968" y="0" width="8.723179850803254" height="8" fill="#F05138"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="228.1163252906985" height="8" fill="#555555"/>
+                    <rect mask="url(#languages-bar)" x="228.1163252906985" y="0" width="82.63157111893949" height="8" fill="#438eff"/>
+                    <rect mask="url(#languages-bar)" x="310.747896409638" y="0" width="52.25633238914274" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="363.00422879878073" y="0" width="49.79786312624522" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="412.80209192502593" y="0" width="20.781835150029686" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="433.5839270750556" y="0" width="8.892941913605632" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="442.47686898866124" y="0" width="8.779268305872213" height="8" fill="#F05138"/>
+                    <rect mask="url(#languages-bar)" x="451.25613729453346" y="0" width="8.743862705466512" height="8" fill="#B83998"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -239,7 +239,7 @@
                             </div>
                             <small>
                                 <div>20 MB</div>
-                                <div>49.6%</div>
+                                <div>49.59%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -269,13 +269,13 @@
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#B83998" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#F05138" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
-                                Erlang
+                                Swift
                             </div>
                             <small>
-                                <div>768 kB</div>
-                                <div>1.9%</div>
+                                <div>771 kB</div>
+                                <div>1.91%</div>
                             </small>
                         </div>
                     </section>
@@ -289,7 +289,7 @@
                             </div>
                             <small>
                                 <div>7.26 MB</div>
-                                <div>17.97%</div>
+                                <div>17.96%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -319,12 +319,12 @@
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#F05138" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#B83998" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
-                                Swift
+                                Erlang
                             </div>
                             <small>
-                                <div>766 kB</div>
+                                <div>768 kB</div>
                                 <div>1.9%</div>
                             </small>
                         </div>
@@ -1358,7 +1358,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 2 May 2026, 09:01:31 (timezone Asia/Hong_Kong) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 2 May 2026, 20:29:44 (timezone Asia/Hong_Kong) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
