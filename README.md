@@ -8,6 +8,12 @@
 ```
 
 ### 📊 System Status
+### 🧭 Ops Dashboard
+
+<!-- DASHBOARD:START -->
+- Initializing dashboard...
+<!-- DASHBOARD:END -->
+
 ![Metrics](./github-metrics.svg)
 
 ### 🐍 Contribution Crawler
