@@ -14,10 +14,10 @@
 #### GitHub Ops Dashboard
 
 - Open Issues: 3 ([open](https://github.com/issues?q=user%3ARbBtSn0w+is%3Aopen+is%3Aissue+archived%3Afalse))
-- Open PRs: 4 ([open](https://github.com/pulls?q=user%3ARbBtSn0w+is%3Aopen+is%3Apr+archived%3Afalse))
+- Open PRs: 14 ([open](https://github.com/pulls?q=user%3ARbBtSn0w+is%3Aopen+is%3Apr+archived%3Afalse))
 - Actions Failures: all latest default-branch runs passed
 
-_Last update: 2026-06-29T03:02:38.931Z | status: success_
+_Last update: 2026-06-29T05:31:26.139Z | status: success_
 <!-- DASHBOARD:END -->
 
 ![Metrics](./github-metrics.svg)
