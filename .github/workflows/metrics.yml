@@ -9,10 +9,17 @@ jobs:
     permissions:
       contents: write
     steps:
+      - name: Generate Token
+        id: app-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.METRICS_APP_ID }}
+          private-key: ${{ secrets.METRICS_APP_PRIVATE_KEY }}
+
       - name: 🚀 Master Metrics
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ steps.app-token.outputs.token }}
           user: RbBtSn0w
           template: classic
           base: header, activity, community, repositories, metadata
