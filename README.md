@@ -29,11 +29,11 @@ _Last update: 2026-07-25T01:29:44.289Z | status: success_
 ### 📡 Recent Transmissions [rbbtsn0w.me]
 
 <!-- BLOG-POST-LIST:START -->
+- ▷ [为什么剪贴板历史必须本地优先？解读 CopyShelf 的隐私与 Data Protection Keychain 设计](https://rbbtsn0w.me/posts/mac-clipboard-security-local-first/) — `Jul 24, 2026`
+- ▷ [告别频繁切窗口：使用 CopyShelf 的顺序粘贴（Paste Queue）重塑 Mac 批量录入工作流](https://rbbtsn0w.me/posts/sequential-pasting-mac-copyshelf/) — `Jul 24, 2026`
 - ▷ [榨干 GitHub Actions 的最后一点价值](https://rbbtsn0w.me/posts/cost-aware-apple-ci/) — `Jul 21, 2026`
 - ▷ [CopyShelf 发布：macOS 智能剪贴板，重回原生体验](https://rbbtsn0w.me/posts/introducing-copyshelf/) — `Jul 07, 2026`
 - ▷ [从 Console 到 Session：常见 UX 交互模型的空间架构与流式处理决策指南](https://rbbtsn0w.me/posts/ux-interaction-models-guide/) — `Jul 06, 2026`
-- ▷ [Parallel 不等于 Multi-Agent：Spec Kit 与 Superpowers 的并行模型](https://rbbtsn0w.me/posts/speckit-super/) — `Jul 02, 2026`
-- ▷ [Introducing ADG: Versioned, Reproducible Agent Skills](https://rbbtsn0w.me/posts/introducing-adg/) — `Jun 18, 2026`
 <!-- BLOG-POST-LIST:END -->
 
 ---
