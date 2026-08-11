@@ -15,11 +15,10 @@
 
 - Open Issues: 4 ([open](https://github.com/issues?q=user%3ARbBtSn0w+is%3Aopen+is%3Aissue+archived%3Afalse))
 - Open PRs: 21 ([open](https://github.com/pulls?q=user%3ARbBtSn0w+is%3Aopen+is%3Apr+archived%3Afalse))
-- Actions Failures: 2 repos failing
-  - [RbBtSn0w/awesome-copilot-mcp](https://github.com/RbBtSn0w/awesome-copilot-mcp/actions)
+- Actions Failures: 1 repos failing
   - [RbBtSn0w/tuist-brew-ci-smoke](https://github.com/RbBtSn0w/tuist-brew-ci-smoke/actions)
 
-_Last update: 2026-08-11T01:29:50.791Z | status: success_
+_Last update: 2026-08-11T02:39:53.958Z | status: success_
 <!-- DASHBOARD:END -->
 
 ![Metrics](./github-metrics.svg)
