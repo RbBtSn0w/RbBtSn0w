@@ -18,7 +18,7 @@
 - Actions Failures: 1 repos failing
   - [RbBtSn0w/tuist-brew-ci-smoke](https://github.com/RbBtSn0w/tuist-brew-ci-smoke/actions)
 
-_Last update: 2026-08-11T23:13:51.548Z | status: success_
+_Last update: 2026-08-12T00:13:08.255Z | status: success_
 <!-- DASHBOARD:END -->
 
 ![Metrics](./github-metrics.svg)
