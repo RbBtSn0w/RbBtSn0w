@@ -28,11 +28,11 @@ _Last update: 2026-09-08T00:07:05.169Z | status: success_
 ### 📡 Recent Transmissions [rbbtsn0w.me]
 
 <!-- BLOG-POST-LIST:START -->
-- ▷ [让多个 Agent 在同一条 Stack 上安全协同：gh-address-cr 的 GitHub Stacked PR 实践](https://rbbtsn0w.me/posts/gh-address-cr-stacked-prs/) — `Aug 02, 2026`
-- ▷ [为什么剪贴板历史必须本地优先？解读 Levelory 的隐私与 Data Protection Keychain 设计](https://rbbtsn0w.me/posts/mac-clipboard-security-local-first/) — `Jul 24, 2026`
-- ▷ [告别频繁切窗口：使用 Levelory 的顺序粘贴（Paste Queue）重塑 Mac 批量录入工作流](https://rbbtsn0w.me/posts/sequential-pasting-mac-levelory/) — `Jul 24, 2026`
-- ▷ [榨干 GitHub Actions 的最后一点价值](https://rbbtsn0w.me/posts/cost-aware-apple-ci/) — `Jul 21, 2026`
-- ▷ [Levelory 发布：macOS 智能剪贴板，重回原生体验](https://rbbtsn0w.me/posts/introducing-levelory/) — `Jul 07, 2026`
+- ▷ [wechat-publisher 架构设计：如何用 TypeScript 打造高保真微信排版管道](https://rbbtsn0w.me/posts/wechat-publisher-architecture-pipeline/) — `Sep 16, 2026`
+- ▷ [让多个 Agent 在同一条 Stack 上安全协同：Stacked PR 深度实战](https://rbbtsn0w.me/posts/stacked-prs-agent-collaboration/) — `Sep 15, 2026`
+- ▷ [Apple Intelligence 时代：现代 App Intents 架构改造与 Spotlight 联动](https://rbbtsn0w.me/posts/apple-intelligence-app-intents-evolution/) — `Sep 14, 2026`
+- ▷ [告别昂贵 macOS Runner：中小型团队的成本敏感型 Apple CI 架构](https://rbbtsn0w.me/posts/cost-aware-apple-ci-design/) — `Sep 13, 2026`
+- ▷ [Swift Testing 深度实践：从 XCTest 迁移到现代化宏断言体系](https://rbbtsn0w.me/posts/swift-testing-macro-migration-guide/) — `Sep 12, 2026`
 <!-- BLOG-POST-LIST:END -->
 
 ---
