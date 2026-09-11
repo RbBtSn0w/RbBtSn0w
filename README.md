@@ -16,10 +16,10 @@
 - Open Issues: 1 ([open](https://github.com/issues?q=user%3ARbBtSn0w+is%3Aopen+is%3Aissue+archived%3Afalse))
 - Open PRs: 3 ([open](https://github.com/pulls?q=user%3ARbBtSn0w+is%3Aopen+is%3Apr+archived%3Afalse))
 - Actions Failures: 2 repos failing
-  - [RbBtSn0w/wechat-publisher](https://github.com/RbBtSn0w/wechat-publisher/actions)
   - [RbBtSn0w/adg](https://github.com/RbBtSn0w/adg/actions)
+  - [RbBtSn0w/wechat-publisher](https://github.com/RbBtSn0w/wechat-publisher/actions)
 
-_Last update: 2026-09-11T20:02:43.100Z | status: success_
+_Last update: 2026-09-11T21:02:27.445Z | status: success_
 <!-- DASHBOARD:END -->
 
 ![Metrics](./github-metrics.svg)
