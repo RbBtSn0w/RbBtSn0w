@@ -15,9 +15,10 @@
 
 - Open Issues: 2 ([open](https://github.com/issues?q=user%3ARbBtSn0w+is%3Aopen+is%3Aissue+archived%3Afalse))
 - Open PRs: 2 ([open](https://github.com/pulls?q=user%3ARbBtSn0w+is%3Aopen+is%3Apr+archived%3Afalse))
-- Actions Failures: all latest default-branch runs passed
+- Actions Failures: 1 repos failing
+  - [RbBtSn0w/wechat-publisher](https://github.com/RbBtSn0w/wechat-publisher/actions)
 
-_Last update: 2026-09-24T05:02:49.099Z | status: success_
+_Last update: 2026-09-24T06:04:47.558Z | status: success_
 <!-- DASHBOARD:END -->
 
 ![Metrics](./github-metrics.svg)
