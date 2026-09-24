@@ -28,11 +28,11 @@ _Last update: 2026-09-24T00:06:41.725Z | status: success_
 ### 📡 Recent Transmissions [rbbtsn0w.me]
 
 <!-- BLOG-POST-LIST:START -->
+- ▷ [拆解 Xcode 27 mcpbridge：Apple 没有用 swift-sdk，而是自研了一整套 MCP 栈](https://rbbtsn0w.me/posts/xcode27-mcpbridge-architecture/) — `Sep 18, 2026`
 - ▷ [wechat-publisher 架构设计：如何用 TypeScript 打造高保真微信排版管道](https://rbbtsn0w.me/posts/wechat-publisher-architecture-pipeline/) — `Sep 16, 2026`
 - ▷ [让多个 Agent 在同一条 Stack 上安全协同：Stacked PR 深度实战](https://rbbtsn0w.me/posts/stacked-prs-agent-collaboration/) — `Sep 15, 2026`
 - ▷ [Apple Intelligence 时代：现代 App Intents 架构改造与 Spotlight 联动](https://rbbtsn0w.me/posts/apple-intelligence-app-intents-evolution/) — `Sep 14, 2026`
 - ▷ [告别昂贵 macOS Runner：中小型团队的成本敏感型 Apple CI 架构](https://rbbtsn0w.me/posts/cost-aware-apple-ci-design/) — `Sep 13, 2026`
-- ▷ [Swift Testing 深度实践：从 XCTest 迁移到现代化宏断言体系](https://rbbtsn0w.me/posts/swift-testing-macro-migration-guide/) — `Sep 12, 2026`
 <!-- BLOG-POST-LIST:END -->
 
 ---
