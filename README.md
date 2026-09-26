@@ -14,11 +14,10 @@
 #### GitHub Ops Dashboard
 
 - Open Issues: 1 ([open](https://github.com/issues?q=user%3ARbBtSn0w+is%3Aopen+is%3Aissue+archived%3Afalse))
-- Open PRs: 5 ([open](https://github.com/pulls?q=user%3ARbBtSn0w+is%3Aopen+is%3Apr+archived%3Afalse))
-- Actions Failures: 1 repos failing
-  - [RbBtSn0w/wechat-markdown](https://github.com/RbBtSn0w/wechat-markdown/actions)
+- Open PRs: 3 ([open](https://github.com/pulls?q=user%3ARbBtSn0w+is%3Aopen+is%3Apr+archived%3Afalse))
+- Actions Failures: all latest default-branch runs passed
 
-_Last update: 2026-09-26T14:02:39.957Z | status: success_
+_Last update: 2026-09-26T15:02:39.689Z | status: success_
 <!-- DASHBOARD:END -->
 
 ![Metrics](./github-metrics.svg)
