@@ -15,12 +15,11 @@
 
 - Open Issues: 2 ([open](https://github.com/issues?q=user%3ARbBtSn0w+is%3Aopen+is%3Aissue+archived%3Afalse))
 - Open PRs: 6 ([open](https://github.com/pulls?q=user%3ARbBtSn0w+is%3Aopen+is%3Apr+archived%3Afalse))
-- Actions Failures: 3 repos failing
-  - [RbBtSn0w/wechat-markdown](https://github.com/RbBtSn0w/wechat-markdown/actions)
-  - [RbBtSn0w/gh-address-cr](https://github.com/RbBtSn0w/gh-address-cr/actions)
+- Actions Failures: 2 repos failing
   - [RbBtSn0w/adg](https://github.com/RbBtSn0w/adg/actions)
+  - [RbBtSn0w/wechat-markdown](https://github.com/RbBtSn0w/wechat-markdown/actions)
 
-_Last update: 2026-09-29T19:02:16.262Z | status: success_
+_Last update: 2026-09-29T20:03:22.448Z | status: success_
 <!-- DASHBOARD:END -->
 
 ![Metrics](./github-metrics.svg)
