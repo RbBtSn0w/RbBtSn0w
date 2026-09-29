@@ -16,9 +16,9 @@
 - Open Issues: 2 ([open](https://github.com/issues?q=user%3ARbBtSn0w+is%3Aopen+is%3Aissue+archived%3Afalse))
 - Open PRs: 7 ([open](https://github.com/pulls?q=user%3ARbBtSn0w+is%3Aopen+is%3Apr+archived%3Afalse))
 - Actions Failures: 1 repos failing
-  - [RbBtSn0w/gh-address-cr](https://github.com/RbBtSn0w/gh-address-cr/actions)
+  - [RbBtSn0w/Apple-iDocs](https://github.com/RbBtSn0w/Apple-iDocs/actions)
 
-_Last update: 2026-09-29T07:10:28.107Z | status: success_
+_Last update: 2026-09-29T08:04:26.526Z | status: success_
 <!-- DASHBOARD:END -->
 
 ![Metrics](./github-metrics.svg)
