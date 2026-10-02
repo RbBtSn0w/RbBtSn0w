@@ -14,12 +14,11 @@
 #### GitHub Ops Dashboard
 
 - Open Issues: 4 ([open](https://github.com/issues?q=user%3ARbBtSn0w+is%3Aopen+is%3Aissue+archived%3Afalse))
-- Open PRs: 10 ([open](https://github.com/pulls?q=user%3ARbBtSn0w+is%3Aopen+is%3Apr+archived%3Afalse))
-- Actions Failures: 2 repos failing
+- Open PRs: 16 ([open](https://github.com/pulls?q=user%3ARbBtSn0w+is%3Aopen+is%3Apr+archived%3Afalse))
+- Actions Failures: 1 repos failing
   - [RbBtSn0w/gh-address-cr](https://github.com/RbBtSn0w/gh-address-cr/actions)
-  - [RbBtSn0w/Apple-iDocs](https://github.com/RbBtSn0w/Apple-iDocs/actions)
 
-_Last update: 2026-10-02T08:03:38.414Z | status: success_
+_Last update: 2026-10-02T09:03:13.502Z | status: success_
 <!-- DASHBOARD:END -->
 
 ![Metrics](./github-metrics.svg)
