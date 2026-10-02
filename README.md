@@ -14,13 +14,12 @@
 #### GitHub Ops Dashboard
 
 - Open Issues: 6 ([open](https://github.com/issues?q=user%3ARbBtSn0w+is%3Aopen+is%3Aissue+archived%3Afalse))
-- Open PRs: 15 ([open](https://github.com/pulls?q=user%3ARbBtSn0w+is%3Aopen+is%3Apr+archived%3Afalse))
-- Actions Failures: 3 repos failing
-  - [RbBtSn0w/wechat-markdown](https://github.com/RbBtSn0w/wechat-markdown/actions)
-  - [RbBtSn0w/Apple-iDocs](https://github.com/RbBtSn0w/Apple-iDocs/actions)
+- Open PRs: 17 ([open](https://github.com/pulls?q=user%3ARbBtSn0w+is%3Aopen+is%3Apr+archived%3Afalse))
+- Actions Failures: 2 repos failing
   - [RbBtSn0w/adg](https://github.com/RbBtSn0w/adg/actions)
+  - [RbBtSn0w/wechat-markdown](https://github.com/RbBtSn0w/wechat-markdown/actions)
 
-_Last update: 2026-10-02T05:03:01.694Z | status: success_
+_Last update: 2026-10-02T06:04:54.085Z | status: success_
 <!-- DASHBOARD:END -->
 
 ![Metrics](./github-metrics.svg)
