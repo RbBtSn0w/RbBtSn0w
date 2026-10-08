@@ -7,7 +7,6 @@
 > FROM: Alibaba -> Tencent -> [Current: HK]
 ```
 
-### 📊 System Status
 ### 🧭 Ops Dashboard
 
 <!-- DASHBOARD:START -->
@@ -21,6 +20,7 @@
 _Last update: 2026-10-08T08:05:41.066Z | status: success_
 <!-- DASHBOARD:END -->
 
+### 📊 Engineering Metrics
 ![Metrics](./github-metrics.svg)
 
 ### 🐍 Contribution Crawler
