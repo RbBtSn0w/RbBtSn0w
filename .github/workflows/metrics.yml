@@ -15,6 +15,7 @@ jobs:
         with:
           app-id: ${{ vars.METRICS_APP_ID }}
           private-key: ${{ secrets.METRICS_APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
 
       - name: 🚀 Master Metrics
         uses: lowlighter/metrics@latest
@@ -22,13 +23,35 @@ jobs:
           token: ${{ steps.app-token.outputs.token }}
           user: RbBtSn0w
           template: classic
-          base: header, activity, community, repositories, metadata
+          # 仅保留核心工程与仓库指标，移除 community 泛社交杂音 (following, orgs, sponsors)
+          base: header, activity, repositories, metadata
+          repositories_affiliations: owner, collaborator
           config_timezone: Asia/Hong_Kong
           config_theme: dracula
+          config_order: base.header, isocalendar, languages, lines, habits, base.activity, base.repositories, base.metadata
+
+          # 编程语言深度分析 (过滤标记语言，展示字节量与百分比)
           plugin_languages: yes
           plugin_languages_ignored: html, css, scss
           plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 8
+          plugin_languages_threshold: 0%
+
+          # 3D 等轴贡献日历 (半年度)
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
-          # 关闭图片内的 RSS 插件，因为我们要改用文字形式
+
+          # 代码吞吐量 (增删行数统计)
+          plugin_lines: yes
+          plugin_lines_history_limit: 1
+
+          # 编码节奏与活跃时段分布
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_habits_trim: yes
+
+          # 博客列表由外部脚本独立同步，关闭内置 RSS 插件
           plugin_rss: no
