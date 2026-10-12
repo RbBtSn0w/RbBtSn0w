@@ -16,7 +16,7 @@
 ## ⚡ Start Here
 
 - 🤖 **[adg](https://github.com/RbBtSn0w/adg)** — One CLI to manage AI agent plugins and skills across Claude Code, Codex & Antigravity
-- ✍️ **[wechat-publisher](https://github.com/RbBtSn0w/wechat-publisher)** — High-fidelity WeChat Official Account Markdown & draft publisher with LaTeX & Mermaid
+- 📝 **[wechat-publisher](https://github.com/RbBtSn0w/wechat-publisher)** — High-fidelity WeChat Official Account Markdown & draft publisher with LaTeX & Mermaid
 - 🍏 **[Apple-iDocs](https://github.com/RbBtSn0w/Apple-iDocs)** — Sub-second Apple documentation and HIG query engine in Swift
 - 🎯 **[gh-address-cr](https://github.com/RbBtSn0w/gh-address-cr)** — Evidence-gated GitHub PR review loop resolver with verified test proof
 - 🍺 **[homebrew-tap](https://github.com/RbBtSn0w/homebrew-tap)** — Single distribution tap for all CLIs (`brew tap RbBtSn0w/tap && brew install <tool>`)
@@ -31,7 +31,7 @@
 - 🛠️ **[skill-creator](https://github.com/RbBtSn0w/skill-creator)** — Universal platform-neutral AI agent skill creator and optimizer.
 - 🔌 **[awesome-copilot-mcp](https://github.com/RbBtSn0w/awesome-copilot-mcp)** — MCP server providing structured access to awesome-copilot agents and resources.
 
-### ✍️ Creator Engineering & Content Pipeline
+### 📝 Creator Engineering & Content Pipeline
 - 🚀 **[wechat-publisher](https://github.com/RbBtSn0w/wechat-publisher)** — CLI to publish Markdown drafts to WeChat Official Account with LaTeX, Mermaid, and image auto-sync.
 - 📦 **[wechat-markdown](https://github.com/RbBtSn0w/wechat-markdown)** — High-fidelity Markdown to WeChat Official Account HTML converter SDK & middleware.
 - 📡 **[omni-post](https://github.com/RbBtSn0w/omni-post)** — Broadcast everywhere, manage once across WeChat, Xiaohongshu, Bilibili, and Douyin.

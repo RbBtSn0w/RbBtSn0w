@@ -1,7 +1,14 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
 
+const fs = require('node:fs');
+const os = require('node:os');
+const path = require('node:path');
+const { spawnSync } = require('node:child_process');
+
 const {
+  DASHBOARD_START,
+  DASHBOARD_END,
   ensureDashboardMarkers,
   replaceDashboardBlock,
   renderDashboardMarkdown,
@@ -95,3 +102,40 @@ test('applyFailureMetadata updates last line metadata', () => {
   assert.match(output, /status: failed/);
   assert.match(output, /\[run\]\(https:\/\/github.com\/owner\/repo\/actions\/runs\/1\)/);
 });
+
+function runMainWithReadme(readme, envOverrides = {}) {
+  const directory = fs.mkdtempSync(path.join(os.tmpdir(), 'update-dashboard-'));
+  const readmePath = path.join(directory, 'README.md');
+
+  try {
+    fs.writeFileSync(readmePath, readme, 'utf8');
+    const env = { ...process.env, ...envOverrides };
+    if (!('GITHUB_TOKEN' in envOverrides)) {
+      delete env.GITHUB_TOKEN;
+    }
+    const result = spawnSync(
+      process.execPath,
+      [path.join(__dirname, 'update-dashboard.js')],
+      {
+        cwd: directory,
+        env,
+        encoding: 'utf8'
+      }
+    );
+
+    assert.equal(result.status, 0, result.stderr);
+    return fs.readFileSync(readmePath, 'utf8');
+  } finally {
+    fs.rmSync(directory, { recursive: true, force: true });
+  }
+}
+
+for (const [description, readme] of [
+  ['both markers are missing', '# Title\n\nNo markers here\n'],
+  ['the start marker is missing', `before\n${DASHBOARD_END}\nafter\n`],
+  ['the end marker is missing', `before\n${DASHBOARD_START}\nafter\n`]
+]) {
+  test(`main preserves README without GITHUB_TOKEN when ${description}`, () => {
+    assert.equal(runMainWithReadme(readme), readme);
+  });
+}
