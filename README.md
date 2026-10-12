@@ -1,32 +1,50 @@
-# ⚡ [RbBtSn0w] Kernel Booting...
+# Hi, I'm Hamilton 👋 (RbBtSn0w)
 
-```zsh
-> WHOAMI: Hamilton Snow
-> ROLE: Senior Developer / MTB Enthusiast
-> TECH: Swift | Vulkan | Metal | TypeScript | Rust
-> FROM: Alibaba -> Tencent -> [Current: HK]
-```
+📍 **Hong Kong** | 🍏 **Senior Apple Platform & Systems Eng** | 🤖 **AI Agentic Tooling Builder**
 
-### 🧭 Ops Dashboard
+> *"Slow is Fast"* — Engineering high-fidelity developer tools, agent infrastructure, and native Apple experiences.
 
-<!-- DASHBOARD:START -->
-#### GitHub Ops Dashboard
+[![Swift](https://img.shields.io/badge/-Swift-FA7343?style=flat-square&logo=swift&logoColor=white)](#-apple-platform--native-engineering)
+[![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](#-creator-engineering--content-pipeline)
+[![Claude Code](https://img.shields.io/badge/-Claude%20Code-D97706?style=flat-square&logo=anthropic&logoColor=white)](#-ai-agent-infrastructure--workflows)
+[![macOS](https://img.shields.io/badge/-macOS-000000?style=flat-square&logo=apple&logoColor=white)](#-apple-platform--native-engineering)
+[![Metal](https://img.shields.io/badge/-Metal-888888?style=flat-square&logo=apple&logoColor=white)](#-apple-platform--native-engineering)
+[![Homebrew](https://img.shields.io/badge/-Homebrew-FBB040?style=flat-square&logo=homebrew&logoColor=black)](https://github.com/RbBtSn0w/homebrew-tap)
 
-- Open Issues: 1 ([open](https://github.com/issues?q=user%3ARbBtSn0w+is%3Aopen+is%3Aissue+archived%3Afalse))
-- Open PRs: 1 ([open](https://github.com/pulls?q=user%3ARbBtSn0w+is%3Aopen+is%3Apr+archived%3Afalse))
-- Actions Failures: 1 repos failing
-  - [RbBtSn0w/wechat-markdown](https://github.com/RbBtSn0w/wechat-markdown/actions)
+---
 
-_Last update: 2026-10-08T08:05:41.066Z | status: success_
-<!-- DASHBOARD:END -->
+## ⚡ Start Here
 
-### 📊 Engineering Metrics
-![Metrics](./github-metrics.svg)
+- 🤖 **[adg](https://github.com/RbBtSn0w/adg)** — One CLI to manage AI agent plugins and skills across Claude Code, Codex & Antigravity
+- ✍️ **[wechat-publisher](https://github.com/RbBtSn0w/wechat-publisher)** — High-fidelity WeChat Official Account Markdown & draft publisher with LaTeX & Mermaid
+- 🍏 **[Apple-iDocs](https://github.com/RbBtSn0w/Apple-iDocs)** — Sub-second Apple documentation and HIG query engine in Swift
+- 🎯 **[gh-address-cr](https://github.com/RbBtSn0w/gh-address-cr)** — Evidence-gated GitHub PR review loop resolver with verified test proof
+- 🍺 **[homebrew-tap](https://github.com/RbBtSn0w/homebrew-tap)** — Single distribution tap for all CLIs (`brew tap RbBtSn0w/tap && brew install <tool>`)
 
-### 🐍 Contribution Crawler
-![Snake](./dist/github-snake-dark.svg)
+---
 
-### 📡 Recent Transmissions [rbbtsn0w.me]
+## 🛠️ Products & Projects
+
+### 🤖 AI Agent Infrastructure & Workflows
+- 🧩 **[adg](https://github.com/RbBtSn0w/adg)** — Author once in a single manifest, adapt to Claude Code, Codex & Antigravity. Versioned & reproducible.
+- 🎯 **[gh-address-cr](https://github.com/RbBtSn0w/gh-address-cr)** — Process GitHub PR review threads end-to-end with verified evidence.
+- 🛠️ **[skill-creator](https://github.com/RbBtSn0w/skill-creator)** — Universal platform-neutral AI agent skill creator and optimizer.
+- 🔌 **[awesome-copilot-mcp](https://github.com/RbBtSn0w/awesome-copilot-mcp)** — MCP server providing structured access to awesome-copilot agents and resources.
+
+### ✍️ Creator Engineering & Content Pipeline
+- 🚀 **[wechat-publisher](https://github.com/RbBtSn0w/wechat-publisher)** — CLI to publish Markdown drafts to WeChat Official Account with LaTeX, Mermaid, and image auto-sync.
+- 📦 **[wechat-markdown](https://github.com/RbBtSn0w/wechat-markdown)** — High-fidelity Markdown to WeChat Official Account HTML converter SDK & middleware.
+- 📡 **[omni-post](https://github.com/RbBtSn0w/omni-post)** — Broadcast everywhere, manage once across WeChat, Xiaohongshu, Bilibili, and Douyin.
+
+### 🍏 Apple Platform & Native Engineering
+- 📖 **[Apple-iDocs](https://github.com/RbBtSn0w/Apple-iDocs)** — High-performance Swift CLI for querying Apple's documentation, rendering Markdown output, and listing technology catalogs.
+- 🎨 **[app-store-creative](https://github.com/RbBtSn0w/app-store-creative)** — Agent workflow plugin for truthful App Store screenshots and preview videos.
+- ⚡ **[spec-kit-extensions](https://github.com/RbBtSn0w/spec-kit-extensions)** (33★) — A collection of high-performance extensions for Spec Kit (SDD Workflow).
+- 🔢 **[RBSOdometer](https://github.com/RbBtSn0w/RBSOdometer)** — Smooth iOS number rolling animation component.
+
+---
+
+## 📡 Recent Transmissions [rbbtsn0w.me]
 
 <!-- BLOG-POST-LIST:START -->
 - ▷ [拆解 Xcode 27 mcpbridge：Apple 没有用 swift-sdk，而是自研了一整套 MCP 栈](https://rbbtsn0w.me/posts/xcode27-mcpbridge-architecture/) — `Sep 18, 2026`
@@ -37,6 +55,21 @@ _Last update: 2026-10-08T08:05:41.066Z | status: success_
 <!-- BLOG-POST-LIST:END -->
 
 ---
-<p align="right">
-  <code>Runtime: Monday, March 2, 2026 | Uptime: 100%</code>
+
+## 📊 Contribution Activity
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./dist/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./dist/github-snake.svg">
+    <img alt="Contribution Snake Animation" src="./dist/github-snake-dark.svg" width="100%" />
+  </picture>
 </p>
+
+<details>
+  <summary>📈 <b>Detailed Engineering Metrics & Telemetry</b></summary>
+  <br/>
+  <p align="center">
+    <img src="./github-metrics.svg" alt="Engineering Metrics" width="100%" />
+  </p>
+</details>
