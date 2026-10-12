@@ -13,10 +13,10 @@
 #### GitHub Ops Dashboard
 
 - Open Issues: 1 ([open](https://github.com/issues?q=user%3ARbBtSn0w+is%3Aopen+is%3Aissue+archived%3Afalse))
-- Open PRs: 10 ([open](https://github.com/pulls?q=user%3ARbBtSn0w+is%3Aopen+is%3Apr+archived%3Afalse))
+- Open PRs: 9 ([open](https://github.com/pulls?q=user%3ARbBtSn0w+is%3Aopen+is%3Apr+archived%3Afalse))
 - Actions Failures: all latest default-branch runs passed
 
-_Last update: 2026-10-12T10:09:17.317Z | status: success_
+_Last update: 2026-10-12T11:04:23.827Z | status: success_
 <!-- DASHBOARD:END -->
 
 ### 📊 Engineering Metrics
