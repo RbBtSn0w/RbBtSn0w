@@ -220,6 +220,11 @@ async function main() {
   const readmePath = path.join(process.cwd(), 'README.md');
   const readmeText = fs.readFileSync(readmePath, 'utf8');
 
+  if (!readmeText.includes(DASHBOARD_START) || !readmeText.includes(DASHBOARD_END)) {
+    console.log('Dashboard markers not present in README.md; skipping ops dashboard generation to protect storefront.');
+    return;
+  }
+
   try {
     const client = createGitHubClient({ token, owner });
     const model = await buildDashboardModel(client, owner);
