@@ -1,21 +1,23 @@
 # AGENTS.md - Project Context & Developer Guide
 
 ## 🚀 Project Overview
-**Name:** RbBtSn0w System Core (GitHub Profile README)
-**Description:** A fully automated, Geek-themed GitHub Profile README for user RbBtSn0w. It leverages GitHub Actions to dynamically generate coding metrics, contribution animations, and fetch recent blog posts, creating a real-time dashboard.
+**Name:** RbBtSn0w System Core (GitHub Profile README & Product Showroom)
+**Description:** A high-converting, Geek & Apple-crafted Product Showroom and Developer Profile for Hamilton Snow (RbBtSn0w). It showcases featured open-source products (AI Agent infrastructure, creator tooling, Apple native systems), unified Homebrew distribution, and dynamically synced blog transmissions.
 **Repository:** [RbBtSn0w/RbBtSn0w](https://github.com/RbBtSn0w/RbBtSn0w)
 
 ## 🏗 Architecture & Workflows
-This repository is entirely driven by GitHub Actions. There is no traditional "build" step; instead, scheduled workflows mutate the repository's contents.
+This repository operates as a curated storefront with automated updates:
 
-- **Metrics System (`metrics.yml`)**: Uses `lowlighter/metrics` to generate `github-metrics.svg`. It captures language usage, commit calendar (isometric), and basic stats. Runs twice daily.
-- **Snake Animation (`snake.yml`)**: Uses `Platane/snk` to generate a snake animation eating contribution graph cells (`dist/github-snake-dark.svg`). Runs daily.
-- **Blog Sync (`blog.yml`)**: Uses `gautamkrishnar/blog-post-workflow` to fetch the RSS feed from `https://rbbtsn0w.me/feed.xml` and injects the latest 5 posts into `README.md`. Runs daily.
+- **Product Showroom (`README.md`)**: Curated showcase featuring flagship tools, domain matrices, and Homebrew tap installation commands.
+- **Blog Sync (`blog.yml`)**: Uses `.github/scripts/update-blog.js` to fetch `https://rbbtsn0w.me/feed.xml` and inject the latest 5 posts into `README.md`. Runs daily.
+- **Snake Animation (`snake.yml`)**: Uses `Platane/snk` to generate contribution animation (`dist/github-snake-dark.svg`). Runs daily.
+- **Metrics System (`metrics.yml`)**: Background generation of `github-metrics.svg`. Runs twice daily.
+- **Ops Dashboard (`dashboard.yml`)**: Decommissioned from scheduled runs to avoid exposing internal maintenance states on the public storefront (`workflow_dispatch` only).
 
 ## 📁 Key File Map
-- `README.md`: The main entry point and terminal-styled UI. Contains HTML comments for dynamic blog injection.
-- `github-metrics.svg`: Auto-generated dashboard image (DO NOT manually edit).
+- `README.md`: The main entry point and product showroom. Contains HTML comments for dynamic blog injection.
 - `dist/github-snake-dark.svg`: Auto-generated animation image (DO NOT manually edit).
+- `.github/scripts/update-blog.js`: Node.js script for parsing Atom feed and updating `README.md`.
 - `.github/workflows/`: Contains all CI/CD automation scripts.
 
 ## 🤖 Instructions for AI Agents

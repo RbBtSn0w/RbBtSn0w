@@ -210,15 +210,20 @@ function applyFailureMetadata(oldBlock, runUrl) {
 }
 
 async function main() {
+  const readmePath = path.join(process.cwd(), 'README.md');
+  const readmeText = fs.readFileSync(readmePath, 'utf8');
+
+  if (!readmeText.includes(DASHBOARD_START) || !readmeText.includes(DASHBOARD_END)) {
+    console.log('Dashboard markers not present in README.md; skipping ops dashboard generation to protect storefront.');
+    return;
+  }
+
   const owner = (process.env.GITHUB_REPOSITORY || 'RbBtSn0w/RbBtSn0w').split('/')[0];
   const token = process.env.GITHUB_TOKEN;
 
   if (!token) {
     throw new Error('GITHUB_TOKEN is required');
   }
-
-  const readmePath = path.join(process.cwd(), 'README.md');
-  const readmeText = fs.readFileSync(readmePath, 'utf8');
 
   try {
     const client = createGitHubClient({ token, owner });
