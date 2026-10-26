@@ -1,25 +1,51 @@
 # Hi, I'm Hamilton 👋 (RbBtSn0w)
 
-📍 **Hong Kong** | 🍏 **Senior Apple Platform & Systems Eng** | 🤖 **AI Agentic Tooling Builder**
+📍 **Hong Kong** | 🍏 **Senior Apple Platform & Systems Eng** | 🏛️ **Founder @ [SPMForge](https://github.com/SPMForge)** | 🤖 **AI Agentic Tooling Builder**
 
-> *"Slow is Fast"* — Engineering high-fidelity developer tools, agent infrastructure, and native Apple experiences.
+> *"Slow is Fast"* — Engineering high-fidelity developer tools, agent infrastructure, and industrial-grade Apple ecosystem packages.
 
 [![Swift](https://img.shields.io/badge/-Swift-FA7343?style=flat-square&logo=swift&logoColor=white)](#-apple-platform--native-engineering)
+[![SPMForge](https://img.shields.io/badge/SPMForge-Swift%20Package%20Forge-FF4F00?style=flat-square&logo=github&logoColor=white)](https://github.com/SPMForge)
 [![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](#-creator-engineering--content-pipeline)
 [![Claude Code](https://img.shields.io/badge/-Claude%20Code-D97706?style=flat-square&logo=anthropic&logoColor=white)](#-ai-agent-infrastructure--workflows)
-[![macOS](https://img.shields.io/badge/-macOS-000000?style=flat-square&logo=apple&logoColor=white)](#-apple-platform--native-engineering)
-[![Metal](https://img.shields.io/badge/-Metal-888888?style=flat-square&logo=apple&logoColor=white)](#-apple-platform--native-engineering)
+[![Metal](https://img.shields.io/badge/-Metal-888888?style=flat-square&logo=apple&logoColor=white)](#-featured-ecosystem-spmforge)
 [![Homebrew](https://img.shields.io/badge/-Homebrew-FBB040?style=flat-square&logo=homebrew&logoColor=black)](https://github.com/RbBtSn0w/homebrew-tap)
 
 ---
 
-## ⚡ Start Here
+## ⚡ Quick Activation
+
+### 🍺 CLI Toolchain (via Homebrew)
+```bash
+brew tap RbBtSn0w/tap
+brew install adg gh-address-cr idocs
+```
+
+### 📦 Apple Systems & Inference Engine (via SwiftPM)
+```swift
+// Package.swift: Bring industrial C++, Vulkan & AI inference directly into Swift
+.package(url: "https://github.com/SPMForge/MoltenVK", from: "1.4.2-alpha.67"),
+.package(url: "https://github.com/SPMForge/ncnn", from: "1.0.20261020-alpha.6")
+```
 
 - 🤖 **[adg](https://github.com/RbBtSn0w/adg)** — One CLI to manage AI agent plugins and skills across Claude Code, Codex & Antigravity
 - 📝 **[wechat-publisher](https://github.com/RbBtSn0w/wechat-publisher)** — High-fidelity WeChat Official Account Markdown & draft publisher with LaTeX & Mermaid
 - 🍏 **[Apple-iDocs](https://github.com/RbBtSn0w/Apple-iDocs)** — Sub-second Apple documentation and HIG query engine in Swift
 - 🎯 **[gh-address-cr](https://github.com/RbBtSn0w/gh-address-cr)** — Evidence-gated GitHub PR review loop resolver with verified test proof
-- 🍺 **[homebrew-tap](https://github.com/RbBtSn0w/homebrew-tap)** — Single distribution tap for all CLIs (`brew tap RbBtSn0w/tap && brew install <tool>`)
+- 🏛️ **[SPMForge](https://github.com/SPMForge)** — Industrial-grade cross-platform C/C++, graphics & AI packages for the Apple ecosystem
+
+---
+
+## 🏛️ Featured Ecosystem: [SPMForge](https://github.com/SPMForge)
+
+> **Swift Package Forge** — Forging industrial-grade cross-platform C/C++, graphics, and AI engines for the modern Apple ecosystem via pure Swift Package Manager.
+
+- ⚡ **[MoltenVK](https://github.com/SPMForge/MoltenVK)** — Industry-standard Vulkan API mapped directly over Apple Metal with zero manual build steps.
+- 🧠 **[ncnn](https://github.com/SPMForge/ncnn)** — High-performance neural network inference engine optimized for Apple Silicon and mobile platforms.
+- 🌊 **[OpenFOAM-14](https://github.com/SPMForge/OpenFOAM-14)** — Industrial computational fluid dynamics (CFD) distribution wrapper for Apple platforms.
+- 🖼️ **[libwebp](https://github.com/SPMForge/libwebp)** — Modern WebP encoding & decoding pipeline ready for Apple apps.
+
+👉 **[Explore SPMForge Organization on GitHub ↗](https://github.com/SPMForge)**
 
 ---
 
